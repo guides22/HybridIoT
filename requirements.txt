@@ -1,0 +1,11 @@
+# Core dependencies
+torch
+numpy
+pandas
+
+# Data acquisition
+requests
+
+# Visualization and experiments
+matplotlib
+jupyter
