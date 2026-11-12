@@ -72,9 +72,9 @@ The agent:
 
 The estimation follows:
 
-\[
+$$
 \hat{x}_t = x_{t-1} + w_t
-\]
+$$
 
 where \(w_t\) represents the estimated variation derived from historical patterns.
 
