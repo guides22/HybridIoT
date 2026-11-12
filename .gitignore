@@ -27,3 +27,6 @@ data/*.pkl
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Development and exploratory test notebooks
+notebooks/test_*.ipynb
