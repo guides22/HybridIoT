@@ -188,34 +188,6 @@ The main directions identified during the evaluation include:
 ```
 
 
-## Installation
-
-**Requirements:** Python and the dependencies listed in `requirements.txt`.
-
-Clone the repository:
-
-```bash
-git clone https://github.com/guides22/HybridIoT.git
-cd HybridIoT
-```
-
-Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-On Windows, activate the environment with `.venv\Scripts\activate`.
-
-Install the dependencies:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-The main dependencies include PyTorch, NumPy, pandas, Requests, Matplotlib, and Jupyter.
-
 ## Reproducing the Experiments
 
 The meteorological datasets and generated experimental results are not included in the repository because of their size.
@@ -272,7 +244,7 @@ The notebook:
 
 Generated datasets, results, and pickle caches are stored locally in `data/` and excluded from Git versioning.
 
-**Computational cost:** the complete experimental evaluation required approximately nine hours in the original development environment. Actual execution time depends on the hardware and software environment.
+**Computational cost:** the complete experimental evaluation required approximately nine hours in the original development environment (16GB RAM). Actual execution time depends on the hardware and software environment.
 
 **Reproducibility note:** collaborator selection includes random sampling without a fixed seed in the original experiments. Consequently, rerunning the evaluation may produce results that differ from those reported above.
 
@@ -285,7 +257,7 @@ This repository contains work developed by **Guillaume Andrea Desaphy** during a
 The internship was supervised by:
 
 - **Valérie Camps** — IRIT, SMAC research team.
-- **Davide Andrea Guastella** — technical supervision and previous research on HybridIoT.
+- **Davide Andrea Guastella** — AMU, LIS research team, technical supervision and previous research on HybridIoT.
 
 HybridIoT is an existing research project developed within the neOCampus research context. Its underlying concepts and estimation methodologies originate from earlier work by Davide Andrea Guastella and collaborators, including Valérie Camps and Marie-Pierre Gleizes.
 
@@ -303,5 +275,3 @@ The project acknowledges IRIT, the SMAC research team, neOCampus, the University
 ## License
 
 The source code is distributed under the **GNU General Public License v3.0 (GPL-3.0)**. See [LICENSE](LICENSE) for details.
-
-Publication of the internship code was authorized by the relevant IRIT representatives subject to open-source licensing, appropriate attribution, and verification that no confidential or proprietary third-party materials are included.
